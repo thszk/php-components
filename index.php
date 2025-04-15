@@ -17,10 +17,11 @@
     <h1>Teste componente dinâmico com PHP</h1>
     <br>
 
-    <?= renderizarBotao('primary', 'Salvar') ?>
-
+    <h2>Componentes de Botão</h2>
+    <?= renderButton('primary', 'Salvar') ?>
     <br><br>
-
-    <?= renderizarBotao('secondary', 'Cancelar') ?>
+    <?= renderButton('secondary', 'Cancelar') ?>
+    <br><br>
+    <?= renderButton('action', 'Entrar') ?>
 </body>
 </html>
